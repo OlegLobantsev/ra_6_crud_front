@@ -1,0 +1,114 @@
+*, *::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #404040;
+}
+
+button {
+  width: 37px;
+  height: 37px;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #404040;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.notes-app {
+  padding: 27px;
+}
+
+.notes-app-title {
+  margin-bottom: 30px;
+  display: flex;
+  
+}
+
+.notes-title {
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.notes-upload {
+  font-size: 30px;
+  color: #2ACE55;
+}
+
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.note {
+  position: relative;
+  width: 240px;
+  height: 172px;
+  margin: 0 40px 27px 0;
+  padding: 27px;
+  border: 1px solid #404040;
+}
+
+.note-content {
+  width: 100%;
+  height: 100%;
+  line-height: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.delete-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 20px;
+  
+}
+
+.notes-form {
+  width: 341px;
+  height: 113px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+
+.form-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 20px;
+  color: #000;
+}
+
+.notes-form textarea {
+  width: 341px;
+  height: 113px;
+  padding: 10px;
+  padding-right: 45px;
+  font-family: Roboto;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+}
